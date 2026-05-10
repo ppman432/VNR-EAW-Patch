@@ -1,0 +1,6 @@
+			fixed_ship_role_slot = ship_hull_cruiser_role_ca 
+-> heavy cruiser (check ship_medium_battery)
+			fixed_ship_role_slot = ship_hull_cruiser_role_ac 
+-> armored cruiser/coastal ship
+ship_hull_monitor
+replace ship_hull_cruiser_role with ship_<hull>_cruiser_role

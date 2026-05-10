@@ -1,0 +1,3 @@
+add deck guns to sub
+events->expert_ai_plane
+eaw update

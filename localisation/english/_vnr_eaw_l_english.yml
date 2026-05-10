@@ -1,0 +1,19 @@
+﻿l_english:
+ NAVAL_TITLE_EAW: "EXTRA MODERN MODULES"
+ ship_missile_launcher_desc: "A vertical launching system to launch ballistic missiles. §GThis module allows you to deploy ballistic missile air wings to this submarine§!"
+ ship_slbm_launcher_desc: "A vertical launching system to launch  ballistic nuclear missiles. §GThis module allows you to deploy ballistic nuclear missile air wings to this submarine§!"
+ ship_light_crystal_projectile_module_double: "Twin Crystalline 127mm Cannon(Auto)"
+ ship_medium_crystal_projectile_module_double: "Twin Crystalline 190mm Cannon"
+ ship_heavy_crystal_projectile_module_triple: "Triple Crystalline 406mm Cannon"
+ ship_heavy_crystal_projectile_module_quad: "Quad Crystalline 406mm Cannon"
+ sp_magical_earth_shatter_crystal_projectiles_multi: "Multi-barrel Crystalline Naval Battery"
+ sp_magical_earth_shatter_crystal_projectiles_vnr: "Navy Energy Shatter Crystal Projectiles"
+ sp_magical_earth_shatter_crystal_projectiles_vnr_desc: "Although crystals typically carry a somewhat containable amount of energy which requires considerable effort to release, it seems as though it is possible - particularly with large crystals - to force additional energy inside them. The more energy contained, the more fragile the crystal and the greater propensity it has for detonating spectacularly. Perhaps unsurprisingly, some bright minds in navy had the genius idea of turning these concerningly volatile crystals as HE filler inside SAP and APHE shells."
+ 
+ dp_light_battery_single_6:0 "127mm Light Long RF. Dual-Purpose Battery"
+ dp_light_battery_single_6_short:0 "Dual-Purpose Main Battery VI"
+ dp_light_battery_single_6_desc:0 "A small but long and lightweight, rapid-fire gun in a high angle powered turret, allowing it to engage airplanes as well as surface targets."
+ 
+ dp_light_secondaries_6_bb:0 "127mm Light Long RF. Dual-Purpose Battery"
+ dp_light_secondaries_6_bb_short:0 "Dual-Purpose Main Battery VI"
+ dp_light_secondaries_6_bb_desc:0 "A small but long and lightweight, rapid-fire gun in a high angle powered turret, allowing it to engage airplanes as well as surface targets."

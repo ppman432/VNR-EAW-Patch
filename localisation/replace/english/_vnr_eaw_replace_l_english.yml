@@ -1,0 +1,8 @@
+﻿l_english:
+##eaw
+ship_hull_super_heavy_2: "Missile Super Heavy Battleship Hull"
+semi_modern_ship_hull_super_heavy:"Missile Super Heavy Battleship"
+ ##Crystal guns
+ ship_heavy_crystal_projectile_module: "Twin Crystalline 406mm Cannon"
+ ship_medium_crystal_projectile_module: "Triple Crystalline 190mm Cannon"
+ ship_light_crystal_projectile_module: "Single Crystalline 127mm Cannon(Auto)"

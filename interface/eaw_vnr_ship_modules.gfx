@@ -1,0 +1,62 @@
+spriteTypes = {	
+
+	# double heavy battery
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_crystal_projectile_module"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crystal_double_heavy_battery.png"
+	}
+	# triple heavy battery
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_crystal_projectile_module_triple"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crystal_triple_heavy_battery.png"
+	}
+	
+	# quadruple heavy battery
+	spriteType = {
+		name = "GFX_SMI_ship_heavy_crystal_projectile_module_quad"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crystal_quad_heavy_battery.png"
+	}
+	# triple light medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_medium_crystal_projectile_module"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crystal_triple_light_medium_battery.png"
+	}	
+	# double light medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_medium_crystal_projectile_module_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crystal_double_medium_battery.png"
+	}
+
+	# single light medium battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_medium_crystal_projectile_module_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crystal_single_light_medium_battery.png"
+	}
+	
+	# double light battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_crystal_projectile_module_double"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crystal_double_light_battery.png"
+	}
+	# single light battery
+	spriteType = {
+		name = "GFX_SMI_ship_light_crystal_projectile_module"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/crystal_single_light_battery.png"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_light_battery_6_single"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_light_battery_icn_6.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries_5"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_secondary_battery_icn_5.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_dp_ship_secondaries_6"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/dp_secondary_battery_icn_6.dds"
+	}
+}
