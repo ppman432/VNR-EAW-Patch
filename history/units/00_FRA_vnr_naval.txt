@@ -1,0 +1,84 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### METRPOLWNGN JERNCE ###
+	fleet = {
+		name = "Amiral Nord"
+		naval_base = 3164 # 575 # Aquila
+		task_force = {				
+			name = "1ère Région Navale"			
+			location = 3164 # 575 # Aquila
+			# 8e Division des Contre-Torpilleurs
+			ship = { name = "Le Terrible" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Le Fantasque Class" } } }
+			ship = { name = "L'Audacieux" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Le Fantasque Class" } } }
+		}				
+	}
+		
+	fleet = {
+		name = "Amiral Ouest"
+		naval_base = 3164 # 575 # Aquila
+		task_force = {
+			name = "2ème Région Navale"
+			location = 3164 # 575 # Aquila
+			ship = { name = "Béarn" definition = carrier start_experience_factor = 0.04 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = JER version_name = "Béarn Class" } } 
+			
+			}
+			# 2e Division des Contre-Torpilleurs
+			ship = { name = "Jaguar" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Chacal/Guépard Class" } } }
+			ship = { name = "Chacal" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Chacal/Guépard Class" } } }
+			ship = { name = "Léopard" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Chacal/Guépard Class" } } }
+			ship = { name = "Panthère" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Chacal/Guépard Class" } } }
+			# 2e Légère Division des Contre-Torpilleurs
+			ship = { name = "Fougueux" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Frondeur" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "L'Adroit" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			# 4e Légère Division des Contre-Torpilleurs
+			ship = { name = "Bourrasque" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Ouragan" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }
+			ship = { name = "Orage" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			# 5e Légère Division des Contre-Torpilleurs
+			ship = { name = "Brestois" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Le Foudroyant" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Boulonnais" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			# 6e Légère Division des Contre-Torpilleurs
+			ship = { name = "Cyclone" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }
+			ship = { name = "Siroco" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+			ship = { name = "Mistral" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = JER version_name = "Bourrasque/L'Adroit Class" } } }	
+		}							
+	}
+
+	fleet = {
+		name = "Amiral Sud"			
+		naval_base = 3164 # 575 # Aquila
+		task_force = {				
+			name = "3ème Région Navale"			
+			location = 3164 # 575 # Aquila
+			ship = { name = "Courbet" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JER version_name = "Courbet Class" } } }        
+			ship = { name = "Paris" definition = battleship start_experience_factor = 0.04 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = JER version_name = "Courbet Class" } } }
+			ship = { name = "Algérie" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JER version_name = "Algérie Class" } } }			
+			ship = { name = "Foch" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JER version_name = "Suffren Class" } } }
+			ship = { name = "Dupleix" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JER version_name = "Suffren Class" } } }
+			ship = { name = "Colbert" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JER version_name = "Suffren Class" } } }
+			ship = { name = "Duquesne" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JER version_name = "Duquesne Class" } } }
+			ship = { name = "Tourville" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = JER version_name = "Duquesne Class" } } }
+			# 4e Division des Contre-Torpilleurs
+			ship = { name = "Lynx" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Chacal/Guépard Class" } } }
+			ship = { name = "Tigre" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Chacal/Guépard Class" } } }
+			# 5e Division des Contre-Torpilleurs
+			ship = { name = "Tartu" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+			ship = { name = "Chevalier Paul" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+			ship = { name = "Vauquelin" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+			# 7e Division des Contre-Torpilleurs
+			ship = { name = "Gerfaut" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+			ship = { name = "Albatros" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+			ship = { name = "Vautour" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+			# 9e Division des Contre-Torpilleurs
+			ship = { name = "Cassard" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+			ship = { name = "Maillé Brézé" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+			ship = { name = "Kersaint" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = JER version_name = "Aigle/Vauquelin Class" } } }
+		}									
+	}
+} 
+
+

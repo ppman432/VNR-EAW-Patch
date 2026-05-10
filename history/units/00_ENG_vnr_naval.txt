@@ -1,0 +1,603 @@
+﻿units = {
+	##### NAVAL UNITS #####
+	### HOME COMMAND ###
+	fleet = {
+		name = "Home Command"			
+		naval_base = 69 # Las Pegasus
+		task_force = {
+			name = "Home Fleet"
+			location = 69 # Las Pegasus
+			ship = { name = "HMS Hassister" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = EQS version_name = "Hassister Class" } } 
+			
+			}
+			ship = { name = "HMS Rarity" definition = battleship start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = EQS version_name = "Rarity Class" } } }
+			ship = { name = "HMS Hood" pride_of_the_fleet = yes definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_2 = { amount = 1 owner = EQS version_name = "Charity Class" } } }
+			ship = { name = "HMS Modesty" definition = battle_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = EQS version_name = "Modesty Class" } } }
+			ship = { name = "HMS Reliability" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Reliability Class" } } }
+			ship = { name = "HMS Calcutta" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "C Class"} } }
+			ship = { name = "HMS Emerald" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Emerald Class" } } }
+			ship = { name = "HMS Enterprise" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Emerald Class" } } }
+			ship = { name = "HMS Sabre" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }
+			ship = { name = "HMS Shikari" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }
+			### 6th Destroyer Flotilla
+			ship = { name = "HMS Keith" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "A/B/C/D Class" } } }
+			# Destroyer Division 12
+			ship = { name = "HMS Vesper" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class" } } }
+			ship = { name = "HMS Vivacious" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class" } } }
+			ship = { name = "HMS Wakeful" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class" } } }
+			ship = { name = "HMS Windsor" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class" } } }
+			### 8th Destroyer Flotilla
+			ship = { name = "HMS Faulknor" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = EQS version_name = "E/F/G/H Class"} } }
+			# Destroyer Division 15
+			ship = { name = "HMS Foxhound" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = EQS version_name = "E/F/G/H Class"} } } 						# to RCN as Qu'Appelle, 1943	
+			ship = { name = "HMS Fury" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = EQS version_name = "E/F/G/H Class"} } }
+			ship = { name = "HMS Fearless" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = EQS version_name = "E/F/G/H Class"} } }
+			ship = { name = "HMS Forester" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_3 = { amount = 1 owner = EQS version_name = "E/F/G/H Class"} } }						# to RCN as Saskatchewan, 1943	
+		}				
+		task_force = {				
+			name = "Reserve Fleet"			
+			location = 69 # Las Pegasus
+			ship = { name = "HMS Princess Celestia" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = EQS version_name = "Princess Celestia Class" } } }
+			ship = { name = "HMS Prudence" definition = heavy_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = EQS version_name = "Prudence Class" } } }
+			ship = { name = "HMS Carlisle" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "C Class" } } }
+			ship = { name = "HMS Curlew" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "C Class" } } }
+			ship = { name = "HMS Adventure" definition = light_cruiser start_experience_factor = 0.04 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Adventure Class" } } }
+			# Reserve Destroyer Division
+			ship = { name = "HMS Whitshed" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }
+			ship = { name = "HMS Wild Swan" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }
+			ship = { name = "HMS Viceroy" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }
+			ship = { name = "HMS Verdun" definition = destroyer start_experience_factor = 0.04 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }
+		}
+		task_force = {
+			name = "Olenia Coast Force"			
+			location = 69 # Las Pegasus
+			ship = { name = "HMS Thestral" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = EQS version_name = "Thestral Class" } }
+			
+			}
+			ship = { name = "HMS Resolution" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = EQS version_name = "Star Swirl Class"} } }			
+			ship = { name = "HMS Star Swirl" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = EQS version_name = "Star Swirl Class"} } }					
+			ship = { name = "HMS Ceres" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "C Class" } } }
+			ship = { name = "HMS Caradoc" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "C Class" } } }
+			ship = { name = "HMS Cairo" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "C Class" } } }
+			# 5th Destroyer Flotilla
+			ship = { name = "HMS Kempenfelt" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "A/B/C/D Class" } } }		# to RCN as Assiniboine, 1939
+		}			
+		task_force = {
+			name = "Northern Patrol"
+			location = 69 # Las Pegasus
+			# 7th Cruiser Squadron
+			ship = { name = "HMS Diomede" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Delphinium Class" } } }
+			ship = { name = "HMS Dragon" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Delphinium Class" } } }
+			# 12th Cruiser Squadron
+			ship = { name = "HMS Effingham" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = EQS version_name = "Prudence Class" } } }
+			ship = { name = "HMS Cardiff" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "C Class" } } }
+			ship = { name = "HMS Delhi" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Delphinium Class"} } }
+			ship = { name = "HMS Dunedin" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Delphinium Class"} } }
+		}
+		task_force = {
+			name = "Escort Force"
+			location = 69 # Las Pegasus
+			# Rosyth Destroyer Division
+			ship = { name = "HMS Wallace" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }
+			ship = { name = "HMS Valorous" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }
+			ship = { name = "HMS Whitley" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }
+		}
+		task_force = {
+			name = "Vanhoover Fleet"
+			location = 69 # Las Pegasus
+			ship = { name = "HMS Suffolk" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Focus Class" } } }
+			### 9th Destroyer Flotilla
+			# Destroyer Division 17
+			ship = { name = "HMS Skate" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }
+			ship = { name = "HMS Saladin" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }
+			ship = { name = "HMS Scimitar" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }
+			ship = { name = "HMS Sardonyx" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }
+			# Destroyer Division 18
+			ship = { name = "HMS Ambuscade" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "A/B/C/D Class" } } }
+			ship = { name = "HMS Winchester" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class" } } }	
+		}
+	}
+
+	### MEDITERRANIAN FLEET ###			
+	fleet = {
+		name = "East Coast Command"
+		naval_base = 11710 # Bronclyn
+		task_force = {
+			name = "Bronclyn Fleet"
+			location = 11710 # Bronclyn
+			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = EQS version_name = "Thestral Class" } } 
+			
+			}
+			ship = { name = "HMS Warspite" definition = battleship start_experience_factor = 0.125 equipment = { vnr_ship_hull_heavy_1 = { amount = 1 owner = EQS version_name = "Princess Celestia Class" } } }			
+			ship = { name = "HMS Sussex" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Canterlot Class" } } }		
+			ship = { name = "HMS ArethHIP" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = EQS version_name = "ArethHIP Class" } } }	
+			ship = { name = "HMS Galatea" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = EQS version_name = "ArethHIP Class" } } }
+			ship = { name = "HMS Coventry" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "C Class" } } }
+			ship = { name = "HMS Wolsey" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }	
+			ship = { name = "HMS Stronghold" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }		
+			### 1st Destroyer Flotilla
+			ship = { name = "HMS Stuart" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "Shakespeare/Scott Class"} } }	
+			# Destroyer Division 1
+			ship = { name = "HMS Comet" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "A/B/C/D Class" } } }			# to RCN as Restigouche, 1938
+			ship = { name = "HMS CrHIPder" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "A/B/C/D Class" } } }			# to RCN as Ottawa, 1938	
+			ship = { name = "HMS Cygnet" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "A/B/C/D Class" } } }			# to RCN as St Laurent, 1937
+			ship = { name = "HMS Crescent" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "A/B/C/D Class" } } }			# to RCN as Fraser, 1937
+			# Destroyer Division 2
+			ship = { name = "HMS Walker" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }	
+			ship = { name = "HMS Vimy" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }	
+			ship = { name = "HMS Bruce" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "Shakespeare/Scott Class"} } }			
+			### 2nd Destroyer Flotilla
+			# Destroyer Division 3
+			ship = { name = "HMS Malcolm" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_2 = { amount = 1 owner = EQS version_name = "Shakespeare/Scott Class"} } }	
+			ship = { name = "HMS Veteran" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }	
+			ship = { name = "HMS Westcott" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }
+			ship = { name = "HMS Wren" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }	
+		}							
+	}
+				
+	### NORTH AND SOUTH AMERICAS ###			
+	fleet = {
+		name = "South Equestria Command"
+		naval_base = 13011 # Baltimare
+		task_force = {				
+			name = "Southeast Fleet"
+			location = 69 # Las Pegasus
+			ship = { name = "HMS Berwick" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Focus Class" } } }
+			ship = { name = "HMS AppleBuck" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "AppleBuck Class" } } }	
+			ship = { name = "HMS Orion" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = EQS version_name = "Oriental Lily Class Class" } } }
+		}				
+		task_force = {				
+			name = "Southwest Fleet"
+			location = 13011 # Baltimare
+			ship = { name = "HMS Neptune" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = EQS version_name = "Oriental Lily Class Class" } } }	
+			ship = { name = "HMS Dauntless" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Delphinium Class"} } }
+			# Destroyer Division 4
+			ship = { name = "HMS Vansittart" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }	
+			ship = { name = "HMS Venomous" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }	
+			ship = { name = "HMS Wivern" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "V/W Class"} } }	
+		}
+		task_force = {				
+			name = "Baltimare Squadron"
+			location = 13011 # Baltimare
+			ship = { name = "HMS Exeter" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "AppleBuck Class" } } }		
+			ship = { name = "HMS Cumberland" definition = heavy_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_2 = { amount = 1 owner = EQS version_name = "Focus Class" } } }
+			ship = { name = "HMS Ajax" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = EQS version_name = "Oriental Lily Class Class" } } }	
+		}				
+	}
+
+	### FAR EAST ###			
+	fleet = {
+		name = "East Coast Defence Command"
+		naval_base = 3920 # Horseleans			
+		task_force = {				
+			name = "Horseleans Fleet"
+			location = 3920 # Horseleans
+			ship = { name = "HMS Grey Eagle" definition = carrier start_experience_factor = 0.075 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = EQS version_name = "Grey Eagle Class" } } }
+			ship = { name = "HMS Scout" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }		
+			ship = { name = "HMS Tenedos" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }		
+			ship = { name = "HMS Thanet" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }		
+			ship = { name = "HMS Thracian" definition = destroyer start_experience_factor = 0.10 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = EQS version_name = "R/S Class"} } }		
+		}				
+		task_force = {				
+			name = "Horseleans Division"
+			location = 3920 # Las Horseleans
+			ship = { name = "HMS Achilles" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = EQS version_name = "Oriental Lily Class Class" } } }		# to RNZN 1012
+			ship = { name = "HMS Oriental Lily Class" definition = light_cruiser start_experience_factor = 0.10 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = EQS version_name = "Oriental Lily Class Class" } } }		# to RNZN 1012
+		}				
+			
+	}
+}
+instant_effect = {
+	### Ongoing Ship Production Jan 1 1936 ###
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_carrier_1
+			creator = "EQS" 
+			version_name = "Luna Class"
+		}
+		name = "HMS Luna"
+		requested_factories = 5
+		progress = 0.10
+		amount = 1
+		industrial_manufacturer = mio:EQS_seaward_organization
+	}
+	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Oriental Lily Class"
+		}
+		name = "HMS Apollo"
+		requested_factories = 2
+		progress = 0.98
+		amount = 1
+		industrial_manufacturer = mio:EQS_baltimare_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Oriental Lily Class"
+		}
+		name = "HMS Amphion"
+		requested_factories = 2
+		progress = 0.83
+		amount = 1
+		industrial_manufacturer = mio:EQS_baltimare_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Waxflower Class"
+		}
+		name = "HMS Penelope"
+		requested_factories = 2
+		progress = 0.65
+		amount = 1
+		industrial_manufacturer = mio:EQS_baltimare_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Waxflower Class"
+		}
+		name = "HMS Aurora"
+		requested_factories = 2
+		progress = 0.19
+		amount = 1
+		industrial_manufacturer = mio:EQS_baltimare_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Peace Lily Class"
+		}
+		name = "HMS Southampton"
+		requested_factories = 2
+		progress = 0.49
+		amount = 1
+		industrial_manufacturer = mio:EQS_seaward_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Peace Lily Class"
+		}
+		name = "HMS Newcastle"
+		requested_factories = 2
+		progress = 0.51
+		amount = 1
+		industrial_manufacturer = mio:EQS_seaward_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Peace Lily Class"
+		}
+		name = "HMS Glasgow"
+		requested_factories = 2
+		progress = 0.3
+		amount = 1
+		industrial_manufacturer = mio:EQS_seaward_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Peace Lily Class"
+		}
+		name = "HMS Birmingham"
+		requested_factories = 2
+		progress = 0.2
+		amount = 1
+		industrial_manufacturer = mio:EQS_seaward_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "EQS" 
+			version_name = "Peace Lily Class"
+		}
+		name = "HMS Sheffield"
+		requested_factories = 2
+		progress = 0.36
+		amount = 1
+		industrial_manufacturer = mio:EQS_seaward_organization
+	}
+	# SS: S-class variant (x2) ("HMS Seawolf" "HMS Narwhal")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "EQS" 
+			version_name = "S Class"
+		}
+		name = "HMS Seawolf"
+		requested_factories = 1
+		progress = 0.91
+		amount = 1
+		industrial_manufacturer = mio:EQS_ichthys_docyard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "EQS" 
+			version_name = "S Class"
+		}
+		name = "HMS Spearfish"
+		requested_factories = 1
+		progress = 0.42
+		amount = 1
+		industrial_manufacturer = mio:EQS_ichthys_docyard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "EQS" 
+			version_name = "S Class"
+		}
+		name = "HMS Sunfish"
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+		industrial_manufacturer = mio:EQS_ichthys_docyard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "EQS" 
+			version_name = "Grampus Class"
+		}
+		name = "HMS Grampus"
+		requested_factories = 1
+		progress = 0.55
+		amount = 1
+		industrial_manufacturer = mio:EQS_ichthys_docyard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "EQS" 
+			version_name = "Grampus Class"
+		}
+		name = "HMS Rorqual"
+		requested_factories = 1
+		progress = 0.38
+		amount = 1
+		industrial_manufacturer = mio:EQS_ichthys_docyard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "EQS" 
+			version_name = "Grampus Class"
+		}
+		name = "HMS Narwhal"
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+		industrial_manufacturer = mio:EQS_ichthys_docyard_organization
+	}
+	# DD: G/H class (x9) ("HMS Gallant" "HMS Garland" "HMS Gipsy" "HMS Glowworm" "HMS Grafton" "HMS Grenade" "HMS Grenville" "HMS Greyhound" "HMS Griffin")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Gallant"
+		requested_factories = 1
+		progress = 0.94
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Garland"
+		requested_factories = 1
+		progress = 0.90
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Gipsy"
+		requested_factories = 1
+		progress = 0.94
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Glowworm"
+		requested_factories = 1
+		progress = 0.98
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Grafton"
+		requested_factories = 1
+		progress = 0.90
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Grenade"
+		requested_factories = 1
+		progress = 0.88
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Greyhound"
+		requested_factories = 1
+		progress = 0.98
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Griffin"
+		requested_factories = 1
+		progress = 0.89
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Grenville"
+		requested_factories = 1
+		progress = 0.73
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Hasty"
+		requested_factories = 1
+		progress = 0.47
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Havock"
+		requested_factories = 1
+		progress = 0.4
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Hereward"
+		requested_factories = 1
+		progress = 0.5
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Hero"
+		requested_factories = 1
+		progress = 0.55
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Hostile"
+		requested_factories = 1
+		progress = 0.58
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Hotspur"
+		requested_factories = 1
+		progress = 0.5
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Hunter"
+		requested_factories = 1
+		progress = 0.56
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Hyperion"
+		requested_factories = 1
+		progress = 0.48
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "EQS" 
+			version_name = "E/F/G/H Class"
+		}
+		name = "HMS Hardy"
+		requested_factories = 1
+		progress = 0.42
+		amount = 1
+		industrial_manufacturer = mio:EQS_mustangia_shipyards_organization
+	}
+}

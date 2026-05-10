@@ -1,0 +1,155 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	### Split between San Pedro (Los Angeles) and San Diego ###
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 18741 #Howlington
+		task_force = {				
+			name = "Battleships, Battle Force"
+			location = 18741 #Howlington
+			### Battleship Division 1 ###			
+			ship = { name = "HMS Queen Novo" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 2 owner = HIP version_name = "Seaville (C) Class" } } }				
+			ship = { name = "HMS Princess Skystar" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 2 owner = HIP version_name = "Seaville (B)/New Mexico Class" } } }							
+		}				
+		task_force = {					
+			name = "Carrier Division, Battle Force"		
+			location = 18741 #Howlington
+			ship = { name = "HMS Taloncenter" definition = carrier start_experience_factor = 0.04 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = HIP version_name = "Ranger Class" } } 
+			
+			}
+			ship = { name = "HMS Starfield" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = HIP version_name = "Lexington Class" } } 
+				
+			}
+			ship = { name = "HMS Howlington" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = HIP version_name = "Lexington Class" } } 
+			
+			}
+		}					
+		task_force = {					
+			name = "Cruisers, Battle Force"
+			location = 18741 #Howlington
+			# Cruiser Division 2 #			
+			ship = { name = "HMS Cabbage Stew" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			ship = { name = "HMS Milwaukee" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			ship = { name = "HMS Cincinnati" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			# Cruiser Division 6 #		
+			ship = { name = "HMS New Orleans" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HIP version_name = "Striker Class" } } }				
+			ship = { name = "HMS Astoria" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HIP version_name = "Striker Class" } } }				
+			ship = { name = "HMS Minneapolis" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HIP version_name = "Striker Class" } } }				
+			ship = { name = "HMS Indianapolis" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HIP version_name = "Striker Class" } } }				
+		}					
+		task_force = {					
+			name = "Cruiser Division 3"				
+			location = 18741 #Howlington
+			ship = { name = "HMS Trenton" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			ship = { name = "HMS Concord" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			# Minlayer Division #		
+			ship = { name = "HMS Krayo" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HIP version_name = "Krayo Class" } } }				
+		}					
+		# Separate DESRONS #
+		task_force = {					
+			name = "Destroyer Division 20"				
+			location = 18741 #Howlington
+			# 20th Destroyer Division				
+			ship = { name = "HMS Breckinridge" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Barney" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Blakeley" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Biddle" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+		}					
+	}
+	
+	
+	### PACIFIC RESERVES ###
+	fleet = {
+		name = "Pacific Reserve Fleet"			
+		naval_base = 18680 #Squarkwood
+		task_force = {
+			name = "Pacific Reserve Carriers"
+			location = 18680 #Squarkwood
+			ship = { name = "HMS Squarkwood" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = HIP version_name = "Squarkwood Class" } } }
+		}
+		task_force = {					
+			name = "Pacific Reserve Destroyers"			# Decommissioned ships docked in San Diego				
+			location =  18680 #Squarkwood
+			ship = { name = "HMS Ballard" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Chew" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Crane" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Crosby" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Greene" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Hogan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Howard" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Kennison" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Kilty" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Palmer" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Schley" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Stansbury" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Ward" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Thornton" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			# Mobile Target Division 1 #
+			ship = { name = "HMS Dorsey" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Elliot" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Boggs" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+		}					
+	}
+	### CARIBBEAN AND FOREIGN DEPLOYMENTS ###
+	fleet = {
+		name = "Special Assignment Forces"			
+		naval_base = 18681 #Ain Trotgourait
+		task_force = {					
+			name = "Naval Detachment Atlantic"			# Historically based in France	
+			location = 18681 #Ain Trotgourait
+			ship = { name = "HMS Dickerson" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Herbert" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Dahlgren" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+		}		
+		task_force = {							
+			name = "Special Service Squadron"
+			location = 18681 #Ain Trotgourait
+			ship = { name = "HMS Tattnall" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS J Fred Talbott" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+		}				
+	}
+	fleet = {
+		name = "Submarine Base Force"			
+		naval_base = 18741 # 1562 # Howlington
+		task_force = {					
+			name = "4th Submarine Squadron"			
+			location = 18664 # 4180 # Winggarden
+			ship = { name = "HMS Argonaut" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			# 7th Submarine Division				
+			ship = { name = "HMS S-1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-18" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-23" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-27" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-28" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-34" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-35" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			# 16th Submarine Division			
+			ship = { name = "HMS S-31" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-32" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-33" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+		}
+		task_force = {					
+			name = "6th Submarine Squadron"			
+			location = 18741 # 1562 # Howlington
+			# 12th Submarine Division				
+			ship = { name = "HMS Barracuda" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Bass" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Bonita" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Narwhal" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Dolphin" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			# 13th Submarine Division				
+			ship = { name = "HMS Nautilus" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Canterlot" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Canterlot Class" } } }
+			ship = { name = "HMS Cuttlefish" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Canterlot Class" } } }
+			ship = { name = "HMS Porpoise" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Porpoise Class" } } }
+			ship = { name = "HMS Pike" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Porpoise Class" } } }
+			ship = { name = "HMS Shark" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Porpoise Class" } } }
+		}					
+	}
+} 
+
+

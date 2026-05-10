@@ -1,0 +1,932 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	### Split between San Pedro (Los Angeles) and San Diego ###
+	fleet = {
+		name = "Battle Force"			
+		naval_base = 18741 #Howlington
+		task_force = {				
+			name = "Battleships, Battle Force"
+			location = 18741 #Howlington
+			### Battleship Division 1 ###			
+			ship = { name = "HMS Queen Novo" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 2 owner = HIP version_name = "Seaville (C) Class" } } }				
+			ship = { name = "HMS Princess Skystar" definition = battleship start_experience_factor = 0.075 equipment = { vnr_ship_hull_heavy_1 = { amount = 2 owner = HIP version_name = "Seaville (B)/New Mexico Class" } } }							
+		}				
+		task_force = {					
+			name = "Carrier Division, Battle Force"		
+			location = 18741 #Howlington
+			ship = { name = "HMS Taloncenter" definition = carrier start_experience_factor = 0.04 equipment = { vnr_ship_hull_carrier_1 = { amount = 1 owner = HIP version_name = "Ranger Class" } } 
+			
+			}
+			ship = { name = "HMS Starfield" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = HIP version_name = "Lexington Class" } } 
+				
+			}
+			ship = { name = "HMS Howlington" definition = carrier start_experience_factor = 0.10 equipment = { vnr_ship_hull_carrier_conversion_bb = { amount = 1 owner = HIP version_name = "Lexington Class" } } 
+			
+			}
+		}					
+		task_force = {					
+			name = "Cruisers, Battle Force"
+			location = 18741 #Howlington
+			# Cruiser Division 2 #			
+			ship = { name = "HMS Cabbage Stew" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			ship = { name = "HMS Milwaukee" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			ship = { name = "HMS Cincinnati" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			# Cruiser Division 6 #		
+			ship = { name = "HMS New Orleans" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HIP version_name = "Striker Class" } } }				
+			ship = { name = "HMS Astoria" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HIP version_name = "Striker Class" } } }				
+			ship = { name = "HMS Minneapolis" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HIP version_name = "Striker Class" } } }				
+			ship = { name = "HMS Indianapolis" definition = heavy_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_3 = { amount = 1 owner = HIP version_name = "Striker Class" } } }				
+		}					
+		task_force = {					
+			name = "Cruiser Division 3"				
+			location = 18741 #Howlington
+			ship = { name = "HMS Trenton" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			ship = { name = "HMS Concord" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_1 = { amount = 1 owner = HIP version_name = "Cabbage Stew Class" } } }				
+			# Minlayer Division #		
+			ship = { name = "HMS Krayo" definition = light_cruiser start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HIP version_name = "Krayo Class" } } }				
+		}					
+		# Separate DESRONS #
+		task_force = {					
+			name = "Destroyer Division 20"				
+			location = 18741 #Howlington
+			# 20th Destroyer Division				
+			ship = { name = "HMS Breckinridge" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Barney" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Blakeley" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Biddle" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+		}					
+	}
+	
+	
+	### PACIFIC RESERVES ###
+	fleet = {
+		name = "Pacific Reserve Fleet"			
+		naval_base = 18680 #Squarkwood
+		task_force = {
+			name = "Pacific Reserve Carriers"
+			location = 18680 #Squarkwood
+			ship = { name = "HMS Squarkwood" definition = carrier equipment = { vnr_ship_hull_carrier_conversion_ca = { amount = 1 owner = HIP version_name = "Squarkwood Class" } } }
+		}
+		task_force = {					
+			name = "Pacific Reserve Destroyers"			# Decommissioned ships docked in San Diego				
+			location =  18680 #Squarkwood
+			ship = { name = "HMS Ballard" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Chew" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Crane" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Crosby" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Greene" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Hogan" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Howard" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Kennison" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Kilty" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Palmer" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Schley" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Stansbury" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Ward" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Thornton" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			# Mobile Target Division 1 #
+			ship = { name = "HMS Dorsey" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Elliot" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Boggs" definition = destroyer equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+		}					
+	}
+	### CARIBBEAN AND FOREIGN DEPLOYMENTS ###
+	fleet = {
+		name = "Special Assignment Forces"			
+		naval_base = 18681 #Ain Trotgourait
+		task_force = {					
+			name = "Naval Detachment Atlantic"			# Historically based in France	
+			location = 18681 #Ain Trotgourait
+			ship = { name = "HMS Dickerson" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Herbert" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS Dahlgren" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+		}		
+		task_force = {							
+			name = "Special Service Squadron"
+			location = 18681 #Ain Trotgourait
+			ship = { name = "HMS Tattnall" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+			ship = { name = "HMS J Fred Talbott" definition = destroyer start_experience_factor = 0.075 equipment = { vnr_ship_hull_light_1 = { amount = 1 owner = HIP version_name = "Flower (B) Class" } } }		
+		}				
+	}
+	fleet = {
+		name = "Submarine Base Force"			
+		naval_base = 18741 # 1562 # Howlington
+		task_force = {					
+			name = "4th Submarine Squadron"			
+			location = 18664 # 4180 # Winggarden
+			ship = { name = "HMS Argonaut" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			# 7th Submarine Division				
+			ship = { name = "HMS S-1" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-18" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-23" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-27" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-28" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-34" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-35" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			# 16th Submarine Division			
+			ship = { name = "HMS S-31" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-32" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+			ship = { name = "HMS S-33" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_1 = { amount = 1 owner = HIP version_name = "O/R/S Class" } } }
+		}
+		task_force = {					
+			name = "6th Submarine Squadron"			
+			location = 18741 # 1562 # Howlington
+			# 12th Submarine Division				
+			ship = { name = "HMS Barracuda" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Bass" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Bonita" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Narwhal" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Dolphin" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			# 13th Submarine Division				
+			ship = { name = "HMS Nautilus" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_cruiser_submarine = { amount = 1 owner = HIP version_name = "Barracuda/Narwhal Class" } } }
+			ship = { name = "HMS Canterlot" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Canterlot Class" } } }
+			ship = { name = "HMS Cuttlefish" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Canterlot Class" } } }
+			ship = { name = "HMS Porpoise" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Porpoise Class" } } }
+			ship = { name = "HMS Pike" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Porpoise Class" } } }
+			ship = { name = "HMS Shark" definition = submarine start_experience_factor = 0.075 equipment = { vnr_ship_hull_submarine_2 = { amount = 1 owner = HIP version_name = "Porpoise Class" } } }
+		}					
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	### Under Construction Notes ###
+	# CV: Northpoint, Enterprise
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_carrier_1
+			creator = "HIP"
+			version_name = "Northpoint Class"
+		}
+		name = "HMS Northpoint"
+		requested_factories = 2
+		progress = 0.54
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_carrier_1
+			creator = "HIP"
+			version_name = "Northpoint Class"
+		}
+		name = "HMS Enterprise"
+		requested_factories = 2
+		progress = 0.38
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_carrier_1
+			creator = "HIP"
+			version_name = "Seahorse Class"
+		}
+		name = "HMS Seahorse"
+		requested_factories = 1
+		progress = 0.03
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	# CA: Quincy (New Orleans class, Comm. 9-Jun, 1936)
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Striker Class"
+		}
+		name = "HMS Quincy"
+		requested_factories = 3
+		progress = 0.83
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Striker Class"
+		}
+		name = "HMS Vincennes"
+		requested_factories = 3
+		progress = 0.63
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	# CA: Shelly
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Shelly Class"
+		}
+		name = "HMS Shelly"
+		requested_factories = 3
+		progress = 0.05
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Freedom Class"
+		}
+		name = "HMS Freedom"
+		requested_factories = 3
+		progress = 0.17
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Freedom Class"
+		}
+		name = "HMS Philadelphia"
+		requested_factories = 3
+		progress = 0.16
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Freedom Class"
+		}
+		name = "HMS Savannah"
+		requested_factories = 3
+		progress = 0.15
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Freedom Class"
+		}
+		name = "HMS Nashville"
+		requested_factories = 3
+		progress = 0.14
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Freedom Class"
+		}
+		name = "HMS Phoenix"
+		requested_factories = 3
+		progress = 0.13
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Freedom Class"
+		}
+		name = "HMS Boise"
+		requested_factories = 3
+		progress = 0.12
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_cruiser_3
+			creator = "HIP"
+			version_name = "Freedom Class"
+		}
+		name = "HMS Honolulu"
+		requested_factories = 3
+		progress = 0.11
+		amount = 1
+		industrial_manufacturer = mio:HIP_northpoint_national_shipbuilding_organization
+	}
+	# DD: Porter (x4) ("HMS Porter" "HMS Phelps" "HMS Clark" "HMS Moffett")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Porter"
+		requested_factories = 2
+		progress = 0.78
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Phelps"
+		requested_factories = 2
+		progress = 0.96
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Clark"
+		requested_factories = 2
+		progress = 0.86
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Moffett"
+		requested_factories = 2
+		progress = 0.77
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Selfridge"
+		requested_factories = 2
+		progress = 0.71
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS McDougal"
+		requested_factories = 2
+		progress = 0.69
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Winslow"
+		requested_factories = 2
+		progress = 0.66
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Balch"
+		requested_factories = 2
+		progress = 0.69
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	# DD: Somers (x2)
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Somers"
+		requested_factories = 2
+		progress = 0.23
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Warrington"
+		requested_factories = 2
+		progress = 0.11
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Sampson"
+		requested_factories = 2
+		progress = 0.00
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Davis"
+		requested_factories = 2
+		progress = 0.00
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust Class"
+		}
+		name = "HMS Jouett"
+		requested_factories = 2
+		progress = 0.00
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	# DD: Mahan class (x9) ("HMS Mahan" "HMS Cummings" "HMS FlHMSer" "HMS Case" "HMS Conyngham" "HMS Cassin" "HMS Shaw" "HMS Cushing" "HMS Perkins")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Mahan"
+		requested_factories = 2
+		progress = 0.70
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Cummings"
+		requested_factories = 2
+		progress = 0.65
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Drayton"
+		requested_factories = 2
+		progress = 0.73
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Lamson"
+		requested_factories = 2
+		progress = 0.71
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS FlHMSer"
+		requested_factories = 2
+		progress = 0.68
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Case"
+		requested_factories = 2
+		progress = 0.67
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Conyngham"
+		requested_factories = 2
+		progress = 0.61
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Cassin"
+		requested_factories = 2
+		progress = 0.68
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Shaw"
+		requested_factories = 2
+		progress = 0.65
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Tucker"
+		requested_factories = 2
+		progress = 0.74
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Downes"
+		requested_factories = 2
+		progress = 0.59
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Cushing"
+		requested_factories = 2
+		progress = 0.71
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Perkins"
+		requested_factories = 2
+		progress = 0.68
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Smith"
+		requested_factories = 2
+		progress = 0.65
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Preston"
+		requested_factories = 2
+		progress = 0.63
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Dunlap"
+		requested_factories = 2
+		progress = 0.35
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Fanning"
+		requested_factories = 2
+		progress = 0.3
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_2
+			creator = "HIP"
+			version_name = "Flower Class"
+		}
+		name = "HMS Reid"
+		requested_factories = 2
+		progress = 0.65
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	# DD: Gridley class (x4)
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Gridley"
+		requested_factories = 2
+		progress = 0.29
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Craven"
+		requested_factories = 2
+		progress = 0.26
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS McCall"
+		requested_factories = 2
+		progress = 0.00
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Maury"
+		requested_factories = 2
+		progress = 0.00
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	# DD: Bagley class (x8)
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Bagley"
+		requested_factories = 2
+		progress = 0.26
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Blue"
+		requested_factories = 2
+		progress = 0.17
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Helm"
+		requested_factories = 2
+		progress = 0.16
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Mugford"
+		requested_factories = 2
+		progress = 0.14
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Ralph Talbot"
+		requested_factories = 2
+		progress = 0.13
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Henley"
+		requested_factories = 2
+		progress = 0.14
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Patterson"
+		requested_factories = 2
+		progress = 0.23
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_light_3
+			creator = "HIP"
+			version_name = "Stardust (B) Class"
+		}
+		name = "HMS Jarvis"
+		requested_factories = 2
+		progress = 0.19
+		amount = 1
+		industrial_manufacturer = mio:HIP_clawes_naval_yard_organization
+	}
+	# SS: Shark class (x1) ("HMS Tarpon")
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "HIP"
+			version_name = "Porpoise Class"
+		}
+		name = "HMS Tarpon"
+		requested_factories = 1
+		progress = 0.93
+		amount = 1
+		industrial_manufacturer = mio:HIP_electric_boat_company_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "HIP"
+			version_name = "Porpoise Class"
+		}
+		name = "HMS Perch"
+		requested_factories = 1
+		progress = 0.52
+		amount = 1
+		industrial_manufacturer = mio:HIP_electric_boat_company_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "HIP"
+			version_name = "Porpoise Class"
+		}
+		name = "HMS Pickerel"
+		requested_factories = 1
+		progress = 0.46
+		amount = 1
+		industrial_manufacturer = mio:HIP_electric_boat_company_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "HIP"
+			version_name = "Porpoise Class"
+		}
+		name = "HMS Permit"
+		requested_factories = 1
+		progress = 0.33
+		amount = 1
+		industrial_manufacturer = mio:HIP_electric_boat_company_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "HIP"
+			version_name = "Porpoise Class"
+		}
+		name = "HMS Plunger"
+		requested_factories = 1
+		progress = 0.38
+		amount = 1
+		industrial_manufacturer = mio:HIP_electric_boat_company_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "HIP"
+			version_name = "Porpoise Class"
+		}
+		name = "HMS Pollack"
+		requested_factories = 1
+		progress = 0.2
+		amount = 1
+		industrial_manufacturer = mio:HIP_electric_boat_company_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = vnr_ship_hull_submarine_2
+			creator = "HIP"
+			version_name = "Porpoise Class"
+		}
+		name = "HMS Pompano"
+		requested_factories = 1
+		progress = 0.05
+		amount = 1
+		industrial_manufacturer = mio:HIP_electric_boat_company_organization
+	}
+}
+
+#####################
+
