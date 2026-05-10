@@ -1,0 +1,492 @@
+technologies = {
+    torpedo_gunboats = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				early_ship_hull_light = 1
+			}
+		}
+    }
+    destroyer_escorts_mtg = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				early_ship_hull_light = 1
+			}
+		}
+    }
+    monitors_mtg = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				early_ship_hull_light = 1
+			}
+		}
+    }
+    protected_cruisers = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				early_ship_hull_cruiser = 1
+			}
+		}
+    }
+    protected_cruisers = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				early_ship_hull_cruiser = 1
+			}
+		}
+    }
+    basic_cruiser_armor_scheme = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				early_cruiser_armor = 1
+			}
+		}
+    }
+    basic_heavy_armor_scheme = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				incremental_armor_scheme = 1
+			}
+		}
+    }
+    improved_heavy_armor_scheme = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				mixed_armor_scheme = 1
+			}
+		}
+    }
+    semi_modern_heavy_armor_scheme = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				all_or_nothing_armor_scheme = 1
+			}
+		}
+    }
+    modern_heavy_armor_scheme = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				all_or_nothing_armor_box_armor_scheme = 1
+			}
+		}
+    }
+    dummy_for_copying = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				all_or_nothing_armor_box_armor_scheme = 1
+			}
+		}
+    }
+    carrier_cloud_tech_mtg = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+		}
+    }
+    advanced_cruiser_submarines = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				all_or_nothing_armor_box_armor_scheme = 1
+			}
+		}
+    }
+	advanced_cruiser_submarines = {
+
+		enable_equipments = { 
+			ship_hull_cruiser_submarine_2
+		}
+		enable_equipment_modules = {
+		#	ship_extra_fuel_tank_2
+		}
+		research_cost = 1
+		start_year = 1015
+
+		#set at gamestart
+		allow = {
+			always = no
+		}
+	}
+    semi_modern_ship_hull_light = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				advanced_ship_hull_light = 1
+			}
+		}
+    }
+    semi_modern_ship_hull_heavy = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				advanced_ship_hull_heavy = 1
+			}
+		}
+    }
+    semi_modern_ship_hull_carrier = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				advanced_ship_hull_carrier = 1
+			}
+		}
+    }
+    modern_ship_hull_carrier = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				full_armored_carrier = 1
+			}
+		}
+    }
+    semi_modern_ship_hull_submarine = {
+        research_cost = 1
+        start_year = 1001
+
+        allow = {
+            always = no
+        }
+		on_research_complete = {
+			set_technology = {
+				advanced_ship_hull_submarine = 1
+			}
+		}
+    }
+	basic_ship_hull_grand_cruiser = {
+
+#		enable_equipments = {
+#			ship_hull_grand_cruiser
+#		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	improved_ship_hull_grand_cruiser = {
+
+		enable_equipments = {
+			ship_hull_grand_cruiser2
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	advanced_ship_hull_grand_cruiser = {
+
+		enable_equipments = {
+			ship_hull_grand_cruiser3
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	sp_aip_engine_improved_tech = {
+
+		on_research_complete = {
+			set_technology = {
+				sub_AIP_engine = 1
+			}
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	sp_aip_engine_advanced_tech = {
+
+		on_research_complete = {
+			set_technology = {
+				sub_AIP_engine = 1
+			}
+		}
+		research_cost = 1
+		start_year = 950
+
+		allow = {
+			always = no
+		}
+	}
+	sp_refined_pykrete = {
+
+		allow_branch = {
+			has_dlc = "Gotterdammerung"
+		}	
+
+
+		allow = {
+			always = no
+		}
+
+
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes
+		research_cost = 1
+		start_year = 1013
+
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+			pykrete_tech
+		}		
+		special_project_specialization = { specialization_naval }	
+	}
+
+	sp_ice_composite_runawayas = {
+
+		enable_equipment_modules = {
+		}
+
+		allow = {
+			always = no
+		}
+
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes			
+		research_cost = 1
+		start_year = 1015
+
+		categories = {
+			naval_equipment
+			cv_tech
+			mio_cat_tech_all_carrier_and_modules
+			pykrete_tech
+		}	
+		special_project_specialization = { specialization_naval }	
+	}
+	wire_torpedo = {
+
+		allow = {
+			always = no
+		}		
+		research_cost = 1
+		start_year = 1015
+
+		on_research_complete = {
+			set_technology = {
+				wire_guided_torpedo = 1
+			}
+		}	
+		special_project_specialization = { specialization_naval }	
+	}
+	advanced_homing_torpedo = {
+
+		allow = {
+			always = no
+		}		
+		research_cost = 1
+		start_year = 1015
+
+		on_research_complete = {
+			set_technology = {
+				wake_homing_torpedo = 1
+			}
+		}	
+		special_project_specialization = { specialization_naval }	
+	}	
+	semi_modern_dp_light_battery = {
+
+		allow = {
+			always = no
+		}		
+		research_cost = 1
+		start_year = 1015
+
+		on_research_complete = {
+			set_technology = {
+				unmanned_gun_turret = 1
+			}
+		}	
+		special_project_specialization = { specialization_naval }	
+	}	
+	modern_dp_light_battery = {
+
+		allow = {
+			always = no
+		}		
+		research_cost = 1
+		start_year = 1015
+
+		on_research_complete = {
+			set_technology = {
+				modern_generic_battery = 1
+			}
+		}	
+		special_project_specialization = { specialization_naval }	
+	}	
+	basic_light_missile = {
+
+		allow = {
+			always = no
+		}		
+		research_cost = 1
+		start_year = 1015
+
+		on_research_complete = {
+			set_technology = {
+				ship_to_ship_missile = 1
+			}
+		}	
+		special_project_specialization = { specialization_naval }	
+	}	
+	improved_light_missile = {
+
+		allow = {
+			always = no
+		}		
+		research_cost = 1
+		start_year = 1015
+
+		on_research_complete = {
+			set_technology = {
+				advanced_missile_system = 1
+			}
+		}	
+		special_project_specialization = { specialization_naval }	
+	}	
+	basic_heavy_missile = {
+
+		allow = {
+			always = no
+		}		
+		research_cost = 1
+		start_year = 1015
+
+		on_research_complete = {
+			set_technology = {
+				ship_to_ship_missile = 1
+			}
+		}	
+		special_project_specialization = { specialization_naval }	
+	}	
+	semi_modern_sonar = {
+
+		allow = {
+			always = no
+		}		
+		research_cost = 1
+		start_year = 1015
+
+		on_research_complete = {
+			set_technology = {
+				modern_sonar = 1
+			}
+		}	
+		special_project_specialization = { specialization_naval }	
+	}
+	sp_naval_proximity_fuze_tech = {
+		#HIDDEN EFFECT FOR THE PROXIMITY FUZE  
+		navy_anti_air_attack_factor = 0.25
+		research_cost = 1
+		start_year = 1011
+		
+		allow = {
+			always = no
+		}
+	}
+
+}

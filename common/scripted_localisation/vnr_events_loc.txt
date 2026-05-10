@@ -1,0 +1,384 @@
+defined_text = {
+    name = constitution_mod_loc
+    text = {
+        trigger = { original_tag = HIP NOT = { has_government = communism } }
+        localization_key = constitution_usa_1
+    }
+    text = {
+        trigger = { original_tag = STG has_government = communism }
+        localization_key = constitution_com_1
+    }
+    text = {
+        trigger = { NOT = {original_tag = STG} has_government = communism }
+        localization_key = constitution_com_2
+    }
+    text = {
+        localization_key = constitution_generic_1
+    }
+}
+
+defined_text = {
+	name = get_naval_lore_gui_title
+	text = {
+		trigger = { original_tag = EQS }
+		localization_key = eng_naval_history
+	}
+	text = {
+		trigger = { original_tag = HIP }
+		localization_key = usa_naval_history
+	}
+	text = {
+		trigger = { original_tag = LCT }
+		localization_key = jap_naval_history
+	}
+	text = {
+		trigger = { original_tag = JER }
+		localization_key = fra_naval_history
+	}
+	text = {
+		trigger = { original_tag = WNG }
+		localization_key = ita_naval_history
+	}
+	text = {
+		trigger = { original_tag = CHN }
+		localization_key = ger_naval_history
+	}
+	text = {
+		trigger = { original_tag = STG }
+		localization_key = sov_naval_history
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = KIR
+				original_tag = PRC
+			}
+		}
+		localization_key = chi_naval_history
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = ast_naval_history
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_title_1
+	text = {
+		trigger = { original_tag = EQS }
+		localization_key = naval_lore_title_1_eng
+	}
+	text = {
+		trigger = { original_tag = HIP }
+		localization_key = naval_lore_title_1_usa
+	}
+	text = {
+		trigger = { original_tag = LCT }
+		localization_key = naval_lore_title_1_jap
+	}
+	text = {
+		trigger = { original_tag = JER }
+		localization_key = naval_lore_title_1_fra
+	}
+	text = {
+		trigger = { original_tag = WNG }
+		localization_key = naval_lore_title_1_ita
+	}
+	text = {
+		trigger = { original_tag = CHN }
+		localization_key = naval_lore_title_1_ger
+	}
+	text = {
+		trigger = { original_tag = STG }
+		localization_key = naval_lore_title_1_sov
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = KIR
+				original_tag = PRC
+			}
+		}
+		localization_key = naval_lore_title_1_chi
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = naval_lore_title_1_ast
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_title_2
+	text = {
+		trigger = { original_tag = EQS }
+		localization_key = naval_lore_title_2_eng
+	}
+	text = {
+		trigger = { original_tag = HIP }
+		localization_key = naval_lore_title_2_usa
+	}
+	text = {
+		trigger = { original_tag = LCT }
+		localization_key = naval_lore_title_2_jap
+	}
+	text = {
+		trigger = { original_tag = JER }
+		localization_key = naval_lore_title_2_fra
+	}
+	text = {
+		trigger = { original_tag = WNG }
+		localization_key = naval_lore_title_2_ita
+	}
+	text = {
+		trigger = { original_tag = CHN }
+		localization_key = naval_lore_title_2_ger
+	}
+	text = {
+		trigger = { original_tag = STG }
+		localization_key = naval_lore_title_2_sov
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = KIR
+				original_tag = PRC
+			}
+		}
+		localization_key = naval_lore_title_2_chi
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = naval_lore_title_2_ast
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_desc_1
+	text = {
+		trigger = { original_tag = EQS }
+		localization_key = naval_lore_desc_1_eng
+	}
+	text = {
+		trigger = { original_tag = HIP }
+		localization_key = naval_lore_desc_1_usa
+	}
+	text = {
+		trigger = { original_tag = LCT }
+		localization_key = naval_lore_desc_1_jap
+	}
+	text = {
+		trigger = { original_tag = JER }
+		localization_key = naval_lore_desc_1_fra
+	}
+	text = {
+		trigger = { original_tag = WNG }
+		localization_key = naval_lore_desc_1_ita
+	}
+	text = {
+		trigger = { original_tag = CHN }
+		localization_key = naval_lore_desc_1_ger
+	}
+	text = {
+		trigger = { original_tag = STG }
+		localization_key = naval_lore_desc_1_sov
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = KIR
+				original_tag = PRC
+			}
+		}
+		localization_key = naval_lore_desc_1_chi
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = naval_lore_desc_1_ast
+	}
+}
+
+defined_text = {
+	name = naval_lore_loc_desc_2
+	text = {
+		trigger = { original_tag = EQS }
+		localization_key = naval_lore_desc_2_eng
+	}
+	text = {
+		trigger = { original_tag = HIP }
+		localization_key = naval_lore_desc_2_usa
+	}
+	text = {
+		trigger = { original_tag = LCT }
+		localization_key = naval_lore_desc_2_jap
+	}
+	text = {
+		trigger = { original_tag = JER }
+		localization_key = naval_lore_desc_2_fra
+	}
+	text = {
+		trigger = { original_tag = WNG }
+		localization_key = naval_lore_desc_2_ita
+	}
+	text = {
+		trigger = { original_tag = CHN }
+		localization_key = naval_lore_desc_2_ger
+	}
+	text = {
+		trigger = { original_tag = STG }
+		localization_key = naval_lore_desc_2_sov
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = KIR
+				original_tag = PRC
+			}
+		}
+		localization_key = naval_lore_desc_2_chi
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = naval_lore_desc_2_ast
+	}
+}
+
+defined_text = {
+	name = get_naval_lore_picture
+	text = {
+		trigger = { original_tag = EQS }
+		localization_key = GFX_naval_lore_eng
+	}
+	text = {
+		trigger = { original_tag = HIP }
+		localization_key = GFX_naval_lore_usa
+	}
+	text = {
+		trigger = { original_tag = LCT }
+		localization_key = GFX_naval_lore_jap
+	}
+	text = {
+		trigger = { original_tag = JER }
+		localization_key = GFX_naval_lore_fra
+	}
+	text = {
+		trigger = { original_tag = WNG }
+		localization_key = GFX_naval_lore_ita
+	}
+	text = {
+		trigger = { original_tag = CHN }
+		localization_key = GFX_naval_lore_ger
+	}
+	text = {
+		trigger = { original_tag = STG }
+		localization_key = GFX_naval_lore_sov
+	}
+	text = {
+		trigger = {
+			OR = {
+				original_tag = KIR
+				original_tag = PRC
+			}
+		}
+		localization_key = GFX_naval_lore_chi
+	}
+	text = {
+		trigger = { original_tag = AST }
+		localization_key = GFX_naval_lore_ast
+	}
+}
+
+defined_text = {
+	name = get_vnr_ai_difficulty
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 0 } }
+		localization_key = vnr_ai_difficulty_no
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 1 } }
+		localization_key = vnr_ai_difficulty_normal
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 2 } }
+		localization_key = vnr_ai_difficulty_hard
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_difficulty = 3 } }
+		localization_key = vnr_ai_difficulty_mad
+	}
+}
+
+defined_text = {
+	name = get_vnr_ai_production
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 0 } }
+		localization_key = vnr_ai_production_no
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 1 } }
+		localization_key = vnr_ai_production_normal
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 2 } }
+		localization_key = vnr_ai_production_hard
+	}
+	text = {
+		trigger = { check_variable = { vnr_ai_production = 3 } }
+		localization_key = vnr_ai_production_mad
+	}
+}
+
+defined_text = {
+	name = get_designer_title
+	text = {
+		trigger = { 
+			OR = {
+				original_tag = EQS
+				original_tag = CAN
+				original_tag = SAF
+				original_tag = AST
+				original_tag = NZL
+				original_tag = RAJ
+			}
+		}
+		localization_key = ship_designer_title_eng
+	}
+	text = {
+		trigger = { original_tag = HIP }
+		localization_key = ship_designer_title_usa
+	}
+	text = {
+		trigger = { original_tag = LCT }
+		localization_key = ship_designer_title_jap
+	}
+	text = {
+		trigger = { original_tag = JER }
+		localization_key = ship_designer_title_fra
+	}
+	text = {
+		trigger = { original_tag = CHN }
+		localization_key = ship_designer_title_ger
+	}
+	text = {
+		trigger = { original_tag = WNG }
+		localization_key = ship_designer_title_ita
+	}
+	text = {
+		trigger = { original_tag = STG has_government = communism }
+		localization_key = ship_designer_title_sov
+	}
+	text = {
+		trigger = { original_tag = STG NOT = { has_government = communism } }
+		localization_key = ship_designer_title_rus
+	}
+	text = {
+		trigger = { original_tag = KIR }
+		localization_key = ship_designer_title_chi
+	}
+	text = {
+		trigger = { original_tag = PRC }
+		localization_key = ship_designer_title_prc
+	}
+	text = {
+		localization_key = ship_designer_title_gen
+	}
+}

@@ -1,0 +1,112 @@
+sp_naval_anechoic_tiles = { ## Energy Shatter Crystal Projectiles
+	specialization = specialization_naval
+	icon = GFX_sp_magical_earth_shatter_crystal_projectiles
+
+	project_tags = {
+		sp_tag_magical
+	}
+	resource_cost = {
+	}
+
+	available = {
+		always = no
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	complexity = sp_complexity.small
+	prototype_time = sp_time.prototype.short
+	breakthrough_cost = {
+		specialization_magical = 1
+	}
+
+
+	project_output = {
+		country_effects = { 
+			set_technology = {
+				anechoic_tile = 1
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+
+	}
+}
+sp_naval_supercarrier = { ## Energy Shatter Crystal Projectiles
+	specialization = specialization_naval
+	icon = GFX_sp_magical_earth_shatter_crystal_projectiles
+
+	project_tags = {
+		sp_tag_magical
+	}
+	resource_cost = {
+	}
+
+	available = {
+		always = no
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	complexity = sp_complexity.small
+	prototype_time = sp_time.prototype.short
+	breakthrough_cost = {
+		specialization_magical = 1
+	}
+
+
+	project_output = {
+		country_effects = { 	
+			set_technology = {
+				super_carriers = 1
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+
+	}
+}
+sp_naval_asroc = { ## Energy Shatter Crystal Projectiles
+	specialization = specialization_naval
+	icon = GFX_sp_magical_earth_shatter_crystal_projectiles
+
+	project_tags = {
+		sp_tag_magical
+	}
+	resource_cost = {
+	}
+
+	available = {
+		always = no
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	complexity = sp_complexity.small
+	prototype_time = sp_time.prototype.short
+	breakthrough_cost = {
+		specialization_magical = 1
+	}
+
+
+	project_output = {
+		country_effects = { 
+			set_technology = {
+				ship_rocket_artillery = 1
+				popup = no
+			}
+		}
+	}
+
+	generic_prototype_rewards = {
+
+	}
+}

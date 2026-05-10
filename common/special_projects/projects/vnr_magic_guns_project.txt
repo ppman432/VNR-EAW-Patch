@@ -1,0 +1,61 @@
+sp_magical_earth_shatter_crystal_projectiles_vnr = { ## Energy Shatter Crystal Projectiles
+	specialization = specialization_magical
+	icon = GFX_sp_magical_earth_shatter_crystal_projectiles
+
+	project_tags = {
+		sp_tag_magical
+	}
+	resource_cost = {
+		resources = { 
+			crystals = 3
+		}
+	}
+
+	available = {
+		FROM = {
+			has_tech = magical_weapons2
+		}
+	}
+	
+	ai_will_do = {
+		base = 1
+	}
+
+	complexity = sp_complexity.small
+	prototype_time = sp_time.prototype.short
+	breakthrough_cost = {
+		specialization_magical = 1
+	}
+
+
+	project_output = {
+
+		enable_equipment_modules = {
+			#ship_light_crystal_projectile_module
+			#ship_medium_crystal_projectile_module
+			#ship_heavy_crystal_projectile_module
+			#vnr
+			ship_light_crystal_projectile_module_double
+			ship_medium_crystal_projectile_module_double
+			ship_heavy_crystal_projectile_module_triple
+			ship_heavy_crystal_projectile_module_quad
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_magical_generic_reward_scientist_xp_1
+		sp_magical_generic_reward_scientist_xp_2
+		sp_magical_generic_reward_scientist_xp_3
+		sp_magical_generic_reward_major_progress_1
+		sp_magical_generic_reward_major_progress_2
+		sp_magical_generic_reward_major_progress_3
+		sp_magical_generic_reward_test_failure_1
+		sp_magical_generic_reward_test_failure_2
+		sp_magical_generic_reward_test_failure_3
+		sp_magical_generic_reward_magical_tech_1
+		sp_magical_generic_reward_magical_tech_2
+		sp_magical_generic_reward_magical_tech_3
+		sp_magical_generic_reward_resource_scarcity
+		sp_magical_generic_reward_critical_failure
+	}
+}

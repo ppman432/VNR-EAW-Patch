@@ -1,0 +1,17 @@
+equestrian_breakaways_ships = {
+
+}
+changeling_breakaways_ships = {
+}
+crown_of_aquileia_ships = {
+
+}
+colthage_breakaways_ships = {
+
+}
+reichspakt_ships = {
+}
+stormlands_ships = {
+}
+saddle_arabian_ships = {
+}

@@ -1,0 +1,14 @@
+remove_naval_treaty_effect = {
+}
+
+add_article_xix = {
+
+}
+
+add_starting_navy_spirits = {
+
+}
+
+sign_naval_treaty = {
+
+}

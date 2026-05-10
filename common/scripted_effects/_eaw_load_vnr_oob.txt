@@ -1,0 +1,230 @@
+eaw_load_vnr_oob = {
+		ABY = {
+			ABY_start_naval_variants = yes
+			load_oob = 00_ABY_vnr_naval
+		}
+		AES = {
+			AES_start_naval_variants = yes
+			load_oob = 00_AES_vnr_naval
+		}
+		ANS = {
+			ANS_start_naval_variants = yes
+			load_oob = 00_ANS_vnr_naval
+		}
+		ASS = {
+			ASS_start_naval_variants = yes
+			load_oob = 00_ASS_vnr_naval
+		}
+		BAK = {
+			BAK_start_naval_variants = yes
+			load_oob = 00_BAK_vnr_naval
+		}
+		BAT = {
+			BAT_start_naval_variants = yes
+			load_oob = 00_BAT_vnr_naval
+		}
+		BRS = {
+			BRS_start_naval_variants = yes
+			load_oob = 00_BRS_vnr_naval
+		}
+		CNT = {
+			CNT_start_naval_variants = yes
+			load_oob = 00_CNT_vnr_naval
+		}
+		CTH = {
+			CTH_start_naval_variants = yes
+			load_oob = 00_CTH_vnr_naval
+		}
+		CTL = {
+			CTL_start_naval_variants = yes
+			load_oob = 00_CTL_vnr_naval
+		}
+		CYA = {
+			CYA_start_naval_variants = yes
+			load_oob = 00_CYA_vnr_naval
+		}
+		DMT = {
+			DMT_start_naval_variants = yes
+			load_oob = 00_DMT_vnr_naval
+		}
+		EQC = {
+			EQC_start_naval_variants = yes
+			load_oob = 00_EQC_vnr_naval
+		}
+		FAL = {
+			FAL_start_naval_variants = yes
+			load_oob = 00_FAL_vnr_naval
+		}
+		FAT = {
+			FAT_start_naval_variants = yes
+			load_oob = 00_FAT_vnr_naval
+		}
+		FEA = {
+		#	FEA_start_naval_variants = yes
+			load_oob = 00_FEA_vnr_naval
+		}
+		FEZ = {
+			FEZ_start_naval_variants = yes
+			load_oob = 00_FEZ_vnr_naval
+		}
+		GAR = {
+			GAR_start_naval_variants = yes
+			load_oob = 00_GAR_vnr_naval
+		}
+		GFS = {
+			GFS_start_naval_variants = yes
+			load_oob = 00_GFS_vnr_naval
+		}
+		GRF = {
+			GRF_start_naval_variants = yes
+			load_oob = 00_GRF_vnr_naval
+		}
+		GRU = {
+			GRU_start_naval_variants = yes
+			load_oob = 00_GRU_vnr_naval
+		}
+		GYZ = {
+			GYZ_start_naval_variants = yes
+			load_oob = 00_GYZ_vnr_naval
+		}
+		HAU = {
+			HAU_start_naval_variants = yes
+			load_oob = 00_HAU_vnr_naval
+		}
+		HIN = {
+			HIN_start_naval_variants = yes
+			load_oob = 00_HIN_vnr_naval
+		}
+		JEB = {
+			JEB_start_naval_variants = yes
+			load_oob = 00_JEB_vnr_naval
+		}
+		JFT = {
+			JFT_start_naval_variants = yes
+			load_oob = 00_JFT_vnr_naval
+		}
+		KAR = {
+			KAR_start_naval_variants = yes
+			load_oob = 00_KAR_vnr_naval
+		}
+		MCW = {
+			MCW_start_naval_variants = yes
+			load_oob = 00_MCW_vnr_naval
+		}
+		MER = {
+			MER_start_naval_variants = yes
+			load_oob = 00_MER_vnr_naval
+		}
+		MGY = {
+			MGY_start_naval_variants = yes
+			load_oob = 00_MGY_vnr_naval
+		}
+		MIT = {
+			MIT_start_naval_variants = yes
+			load_oob = 00_MIT_vnr_naval
+		}
+		MQA = {
+			MQA_start_naval_variants = yes
+			load_oob = 00_MQA_vnr_naval
+		}
+		MTA = {
+			MTA_start_naval_variants = yes
+			load_oob = 00_MTA_vnr_naval
+		}
+		MTO = {
+			MTO_start_naval_variants = yes
+			load_oob = 00_MTO_vnr_naval
+		}
+		NCH = {
+			NCH_start_naval_variants = yes
+			load_oob = 00_NCH_vnr_naval
+		}
+		NVA = {
+			NVA_start_naval_variants = yes
+			load_oob = 00_NVA_vnr_naval
+		}
+		OLE = {
+			OLE_start_naval_variants = yes
+			load_oob = 00_OLE_vnr_naval
+		}
+		OLV = {
+			OLV_start_naval_variants = yes
+			load_oob = 00_OLV_vnr_naval
+		}
+		OSQ = {
+			OSQ_start_naval_variants = yes
+			load_oob = 00_OSQ_vnr_naval
+		}
+		PCB = {
+			PCB_start_naval_variants = yes
+			load_oob = 00_PCB_vnr_naval
+		}
+		PLB = {
+			PLB_start_naval_variants = yes
+			load_oob = 00_PLB_vnr_naval
+		}
+		PNG = {
+			PNG_start_naval_variants = yes
+			load_oob = 00_PNG_vnr_naval
+		}
+		SAM = {
+			SAM_start_naval_variants = yes
+			load_oob = 00_SAM_vnr_naval
+		}
+		SDL = {
+			SDL_start_naval_variants = yes
+			load_oob = 00_SDL_vnr_naval
+		}
+		SIC = {
+			SIC_start_naval_variants = yes
+			load_oob = 00_SIC_vnr_naval
+		}
+		SLC = {
+			SLC_start_naval_variants = yes
+			load_oob = 00_SLC_vnr_naval
+		}
+		SRS = {
+			SRS_start_naval_variants = yes
+			load_oob = 00_SRS_vnr_naval
+		}
+		STM = {
+			STM_start_naval_variants = yes
+			load_oob = 00_STM_vnr_naval
+		}
+		TAL = {
+			TAL_start_naval_variants = yes
+			load_oob = 00_TAL_vnr_naval
+		}
+		TBK = {
+			TBK_start_naval_variants = yes
+			load_oob = 00_TBK_vnr_naval
+		}
+		THU = {
+			THU_start_naval_variants = yes
+			load_oob = 00_THU_vnr_naval
+		}
+		TRD = {
+			TRD_start_naval_variants = yes
+			load_oob = 00_TRD_vnr_naval
+		}
+		VED = {
+			VED_start_naval_variants = yes
+			load_oob = 00_VED_vnr_naval
+		}
+		WAR = {
+			WAR_start_naval_variants = yes
+			load_oob = 00_WAR_vnr_naval
+		}
+		YAN = {
+			YAN_start_naval_variants = yes
+			load_oob = 00_YAN_vnr_naval
+		}
+		YMN = {
+			YMN_start_naval_variants = yes
+			load_oob = 00_YMN_vnr_naval
+		}
+		ZES = {
+			ZES_start_naval_variants = yes
+			load_oob = 00_ZES_vnr_naval
+		}
+}

@@ -1,0 +1,6 @@
+eaw_load_vnr_oob_test = {
+		ABY = {
+			ABY_start_naval_variants = yes
+			load_oob = 00_ABY_vnr_naval
+		}
+}
